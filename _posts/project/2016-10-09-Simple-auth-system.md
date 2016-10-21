@@ -2,7 +2,7 @@
 layout:     post
 title:      简单权限认证管理系统
 category:   project
-description: 实现简单认证系统， 密码强度不高。对保密性要求比较高的系统不适用
+description: 实现简单认证系统， 密码强度不高。对保密性要求比较高的系统不适用。开发语言:LUA  基于nginx基本认证和NGINX_LUA模块
 ---
 
 
