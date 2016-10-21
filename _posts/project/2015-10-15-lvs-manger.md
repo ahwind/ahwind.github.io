@@ -2,7 +2,7 @@
 layout:     post
 title:      LVS管理系统实现思路
 category:   project
-description: LVS管理系统实现思路， 开发语言： python  WEB框架：Django 数据库: YAML
+description: LVS管理系统实现思路。 开发语言:python  WEB框架:Django 数据库:YAML
 ---
 ### 说明
 
