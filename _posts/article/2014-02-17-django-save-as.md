@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      django管理后台添加另存为选项
-category:   project
+category:   article
 description: django管理后台添加另存为选项
 ---
 
