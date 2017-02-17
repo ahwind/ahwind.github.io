@@ -25,7 +25,7 @@ description: 一个简单的任务管理系统， 适用于运维团队。
 ![image](/images/todo/project2.jpg)
 增加任务
 ![image](/images/todo/add.jpg)
-编辑任务
+删除任务
 ![image](/images/todo/edit.jpg)
 统计功能
 ![image](/images/todo/tongji.jpg)
