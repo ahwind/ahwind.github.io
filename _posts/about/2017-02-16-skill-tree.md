@@ -26,5 +26,5 @@ description:
 
 - nginx apache php
 - lvs keepalvied
-- ELK 
+- ELK puppet saltstack
 - 其他
