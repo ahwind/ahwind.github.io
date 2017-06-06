@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Memcached自助管理平台实现-后端架构
+title:      Memcached自助管理平台实现(后端架构)
 category:   project
 description: 通过平台可以释放运维工作，把部分权限放开给业务人员。
 ---
