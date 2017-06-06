@@ -53,10 +53,10 @@ memcached:
     - shell: /sbin/nologin
 
 
-{% for port, size in pillar['memc_items'].iteritems() %}
-memcached_{{ port }}:
+\{% for port, size in pillar['memc_items'].iteritems() %\}
+memcached_\{\{ port \}\}:
   file.managed:
-    - name: /etc/init.d/memcached_{{ port }}
+    - name: /etc/init.d/memcached_\{\{ port \}\}
     - source: salt://memcached/memcached.init
     - template: jinja
     - user: root
@@ -65,15 +65,15 @@ memcached_{{ port }}:
     - require:
       - pkg: memcached
     - defaults:
-      port: {{ port }}
-      size: {{ size }}
+      port: \{\{ port \}\}
+      size: \{\{ size \}\}
 
   service.running:
-    - name: memcached_{{ port }}
+    - name: memcached_\{\{ port \}\}
     - enable: True
     - restart: True
     - watch:
-      - file: /etc/init.d/memcached_{{ port }}
+      - file: /etc/init.d/memcached_\{\{ port \}\}
 ```
 
 memcached.init
