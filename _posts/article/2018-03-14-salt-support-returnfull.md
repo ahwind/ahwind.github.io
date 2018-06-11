@@ -36,10 +36,12 @@ def cmd(
 
 
 ```
+                 
 if fn_ret:
     for mid, data in fn_ret.items():
-        ret[mid] = (data if full_return
-                 else data.get('ret', {}))
+        if data.has_key('ret'):
+            ret[mid] = (data if full_return
+                 else data.get('ret', {}))                 
 ```
 
 重启master
